@@ -1,0 +1,35 @@
+{
+  "error_code": 0,
+  "error_note":  0,
+  "data": {
+    "products": [
+      {
+        "active": true,
+        "active_at": "string",
+        "client_type_id": "string",
+        "credit_rule": {
+          "base_percentage": 0,
+          "calculation_type_id": "string",
+          "currency_type_id": "string",
+          "id": "string",
+          "is_secur": true,
+          "max_term": 0,
+          "min_term": 0,
+          "payment_type_id": "string"
+        },
+        "iabs_product_id": "string",
+        "icon_url": "string",
+        "segment_client_id": "string",
+        "title": {
+          "en": "string",
+          "ru": "string",
+          "uz": "string"
+        }
+      }
+    ],
+    "user": {
+      "firstname": "Имя",
+      "lastname": "Фамилия"
+    }
+  }
+}

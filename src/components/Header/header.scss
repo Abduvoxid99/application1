@@ -1,0 +1,24 @@
+@import "src/css/variables";
+
+.header_main .head_grid{
+  display: grid;
+  grid-template-columns: 35px auto;
+    span{
+      cursor: pointer;
+    }
+    .header_text{
+      font-size: 17px;
+      line-height: 22px;
+      margin-left: 20px;
+    }
+}
+
+@media (min-width: 575px) {
+  //Header
+  .header_main {
+    .header_text {
+      font-size: 18px;
+      margin-left: 0;
+    }
+  }
+}

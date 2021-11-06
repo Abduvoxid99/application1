@@ -1,0 +1,43 @@
+@import "src/css/variables";
+
+.error_main{
+  background: $lightGrey;
+  height: 100vh;
+  .error_contain{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    img{
+      margin-bottom: 20px;
+    }
+    .error_title{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .error_note_message{
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+}
+
+/********* media *******/
+@media only screen and (max-width: 320px) {
+  .error_main{
+      .error_title{
+        p{
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+  }
+}
+
+
+
